@@ -2,23 +2,61 @@
 <html>
 
 <head>
-    <title>首页</title>
+    <title>公告</title>
     <link rel="stylesheet" href="../css/uikit.css" />
+    <link rel="stylesheet" href="../css/my.css" />
     <!--link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/css/uikit.min.css" /-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.2.2/dist/js/uikit-icons.min.js"></script>
-
     <meta charset="utf-8">
+    <style>
+        body{
+            background-color:rgb(245, 245, 245);
+        }
+    </style>
 </head>
 
 <body>
     
-    <div class="uk-child-width-1-2
-     uk-margin-small-top uk-margin-medium-bottom uk-margin-small-left uk-margin-small-right " uk-grid>
-        
+    <div class="uk-child-width-1-2 uk-margin-auto uk-grid-small"  uk-grid >
+
+        <!--右边-->
+        <div class="uk-width-expand"uk-height-viewport="expand: true">
+            <!--标题-->
+            <h1 class="uk-margin-small-top">资讯
+                <small style="color: #666666; font-size: medium">News</small>
+            </h1>
+            <!--分割符号-->
+            <hr class="uk-margin">
+            <!--内容1-->
+            <div class="uk-margin-small-left uk-margin-small-right">
+                <div class="uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #cedbeb; border-radius: 2em">
+                        
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>服务器地址：</b></h2>
+                    </div>
+                    <h3>mc.nanworld.top:34501<span class="uk-label" style="float: right;">online</span></h3>
+                    
+
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>在线人数：</b></h2>
+                    </div>
+                    <h3>8/15</h3>
+
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>你的信息</b></h2>
+                    </div>
+                    <h4><a href="#">你有未完成的新手任务</a></h4>
+
+                    <div class="uk-margin-small-top"></div>
+                    
+                </div>
+            </div>
+           
+        </div>
         <!--左边-->
-        <div class="uk-width-1-2">
+        <div class="uk-width-1-2 ">
             <!--标题-->
             <h1 class="uk-margin-small-top">公告
                 <small style="color: #666666; font-size: medium">Announcement</small>
@@ -38,9 +76,8 @@
 
             <!--公告内容-->
             <div class="uk-child-width-expand uk-grid-row-medium "uk-grid>
-                <!--div class="uk-grid-row-medium" uk-grid-->
                 <div class="uk-width-1-1 uk-margin-small-left uk-margin-small-right">
-                    <div class="uk-width-1-1 uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #F7F7F7; border-radius: 2em">
+                    <div class="uk-width-1-1 my-card my-card-round my-card-blur my-card-boder uk-card-hover my-card-body" >
                         
                         <button type="button" title="删除这条公告" class="delBtn uk-close uk-icon" uk-close=""></button>
                         <span class="uk-label" style="float:right">通知</span>
@@ -109,46 +146,7 @@
                     </div>
                 </div>
                 
-                <!--/div-->
             </div>
-        </div>
-            
-        <!--右边-->
-        <div class="uk-width-expand">
-            <!--标题-->
-            <h1 class="uk-margin-small-top">资讯
-                <small style="color: #666666; font-size: medium">News</small>
-            </h1>
-            <!--分割符号-->
-            <hr class="uk-margin">
-            <!--内容1-->
-            <div class="uk-margin-small-left uk-margin-small-right">
-                <div class="uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #cedbeb; border-radius: 2em">
-                        
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>服务器地址：</b></h2>
-                    </div>
-                    <h3>mc.nanworld.top:34501<span class="uk-label" style="float: right;">online</span></h3>
-                    
-
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>在线人数：</b></h2>
-                    </div>
-                    <h3>8/15</h3>
-
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>你的信息</b></h2>
-                    </div>
-                    <h4><a href="#">你有未完成的新手任务</a></h4>
-
-                    <div class="uk-margin-small-top"></div>
-                    
-                </div>
-            </div>
-
-        
-        
-        
         </div>
         
 

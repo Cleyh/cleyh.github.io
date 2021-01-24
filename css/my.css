@@ -1,0 +1,30 @@
+.my-card {
+    position: relative;
+    transition: box-shadow 0.1s ease-in-out;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 20px 20px;
+}
+.my-card-blur{
+    background: rgba(255, 255, 255, 0.452);
+    backdrop-filter: blur(8px);
+}
+.my-card-body{
+    display: flow-root;
+    padding: 30px 30px;
+}
+
+.my-card-boder{
+    border-top: 1px solid rgba(255, 255, 255, 0.712);
+    border-left: 1px solid rgba(255, 255, 255, 0.712);
+}
+.my-card-round{
+    border-radius: 1em;
+}
+.child-body{
+    background-color: rgba(255, 255, 255, 0);
+}
+.my-bodycard{
+    padding: 10px 10px;
+}
