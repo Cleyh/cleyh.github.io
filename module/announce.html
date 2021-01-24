@@ -19,63 +19,30 @@
 
 <body>
     
-    <div class="uk-child-width-1-2 uk-margin-auto uk-grid-small"  uk-grid >
+    <div class="uk-child-width-auto uk-margin-auto uk-grid-small"  uk-grid >
 
-        <!--右边-->
-        <div class="uk-width-expand"uk-height-viewport="expand: true">
-            <!--标题-->
-            <h1 class="uk-margin-small-top">资讯
-                <small style="color: #666666; font-size: medium">News</small>
-            </h1>
-            <!--分割符号-->
-            <hr class="uk-margin">
-            <!--内容1-->
-            <div class="uk-margin-small-left uk-margin-small-right">
-                <div class="uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #cedbeb; border-radius: 2em">
-                        
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>服务器地址：</b></h2>
-                    </div>
-                    <h3>mc.nanworld.top:34501<span class="uk-label" style="float: right;">online</span></h3>
-                    
-
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>在线人数：</b></h2>
-                    </div>
-                    <h3>8/15</h3>
-
-                    <div class="">
-                        <h2 class="uk-margin-small-top" style="color:teal;"><b>你的信息</b></h2>
-                    </div>
-                    <h4><a href="#">你有未完成的新手任务</a></h4>
-
-                    <div class="uk-margin-small-top"></div>
-                    
-                </div>
-            </div>
-           
-        </div>
         <!--左边-->
-        <div class="uk-width-1-2 ">
-            <!--标题-->
-            <h1 class="uk-margin-small-top">公告
-                <small style="color: #666666; font-size: medium">Announcement</small>
-                <button class="uk-button uk-button-default-not uk-button-small" title="添加公告" style="float:right;vertical-align:middle;">
-                    <svg t="1609580804694" class="icon" viewBox="0 0 1028 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6171" width="35" height="35">
-                        <path d="M512.277 954.412c-118.89 0-230.659-46.078-314.73-129.73S67.12 629.666 67.12 511.222s46.327-229.744 130.398-313.427 195.82-129.73 314.73-129.73 230.659 46.078 314.72 129.73S957.397 392.81 957.397 511.183 911.078 740.96 826.97 824.642s-195.8 129.77-314.692 129.77z m0-822.784c-101.972 0-197.809 39.494-269.865 111.222s-111.7 166.997-111.7 268.373 39.653 196.695 111.67 268.335S410.246 890.78 512.248 890.78s197.809-39.484 269.865-111.222 111.7-166.998 111.67-268.374c-0.03-101.375-39.654-196.665-111.67-268.303S614.22 131.628 512.277 131.628z m222.585 347.8H544.073V288.64c-0.76-17.561-15.613-31.18-33.173-30.419-16.495 0.714-29.704 13.924-30.419 30.419v190.787H289.703c-17.56 0.761-31.179 15.614-30.419 33.174 0.715 16.494 13.924 29.703 30.42 30.418H480.48v190.788c0.761 17.56 15.614 31.179 33.174 30.419 16.494-0.715 29.703-13.925 30.418-30.42V543.02h190.788c17.56 0.762 32.413-12.857 33.173-30.418 0.762-17.561-12.858-32.414-30.419-33.174a31.683 31.683 0 0 0-2.753 0z" fill="#1296db" p-id="6301">
-                        </path>
-                    </svg>
-                </button>
-            </h1>
-            <!--button class="uk-button" href="#跳转的位置 加入id=“xxx”">
-                <h3>+</h3>
-            </button-->
-            
-            <!--分割符号-->
-            <hr class="uk-margin">
+        <div class="uk-width-3-5 my-card my-card-blur" style="margin-left: 30px">
+            <div class="uk-width-expand ">
+                <h1 class="uk-margin-small-top">公告
+                    <small style="color: #666666; font-size: medium">Announcement</small>
+                    <button class="uk-button uk-button-default-not uk-button-small" title="添加公告" style="float:right;vertical-align:middle;">
+                        <svg t="1609580804694" class="icon" viewBox="0 0 1028 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6171" width="35" height="35">
+                            <path d="M512.277 954.412c-118.89 0-230.659-46.078-314.73-129.73S67.12 629.666 67.12 511.222s46.327-229.744 130.398-313.427 195.82-129.73 314.73-129.73 230.659 46.078 314.72 129.73S957.397 392.81 957.397 511.183 911.078 740.96 826.97 824.642s-195.8 129.77-314.692 129.77z m0-822.784c-101.972 0-197.809 39.494-269.865 111.222s-111.7 166.997-111.7 268.373 39.653 196.695 111.67 268.335S410.246 890.78 512.248 890.78s197.809-39.484 269.865-111.222 111.7-166.998 111.67-268.374c-0.03-101.375-39.654-196.665-111.67-268.303S614.22 131.628 512.277 131.628z m222.585 347.8H544.073V288.64c-0.76-17.561-15.613-31.18-33.173-30.419-16.495 0.714-29.704 13.924-30.419 30.419v190.787H289.703c-17.56 0.761-31.179 15.614-30.419 33.174 0.715 16.494 13.924 29.703 30.42 30.418H480.48v190.788c0.761 17.56 15.614 31.179 33.174 30.419 16.494-0.715 29.703-13.925 30.418-30.42V543.02h190.788c17.56 0.762 32.413-12.857 33.173-30.418 0.762-17.561-12.858-32.414-30.419-33.174a31.683 31.683 0 0 0-2.753 0z" fill="#1296db" p-id="6301">
+                            </path>
+                        </svg>
+                    </button>
+                </h1>
+                <!--button class="uk-button" href="#跳转的位置 加入id=“xxx”">
+                    <h3>+</h3>
+                </button-->
+                <!--分割符号-->
+                <hr class="uk-margin">
+            </div>
 
+            
             <!--公告内容-->
-            <div class="uk-child-width-expand uk-grid-row-medium "uk-grid>
+            <div class="uk-width-expand uk-grid-row-medium "uk-grid>
                 <div class="uk-width-1-1 uk-margin-small-left uk-margin-small-right">
                     <div class="uk-width-1-1 my-card my-card-round my-card-blur my-card-boder uk-card-hover my-card-body" >
                         
@@ -100,7 +67,7 @@
                 </div>
                     
                 <div class="uk-width-1-1 uk-margin-small-left uk-margin-small-right">
-                    <div class="uk-width-1-1 uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #F7F7F7; border-radius: 2em">
+                    <div class="uk-width-1-1 my-card my-card-round my-card-blur my-card-boder uk-card-hover my-card-body">
                         
                         <button type="button" title="删除这条公告" class="delBtn uk-close uk-icon" uk-close=""></button>
                         <span class="uk-label" style="float:right">通知</span>
@@ -123,7 +90,7 @@
                 </div>
 
                 <div class="uk-width-1-1 uk-margin-small-left uk-margin-small-right">
-                    <div class="uk-width-1-1 uk-card uk-card-default uk-card-small uk-card-hover uk-card-body" style="background-color: #F7F7F7; border-radius: 2em">
+                    <div class="uk-width-1-1 my-card my-card-round my-card-blur my-card-boder uk-card-hover my-card-body">
                             
                         <button type="button" title="删除这条公告" class="delBtn uk-close uk-icon" uk-close=""></button>
                         <span class="uk-label" style="float:right">通知</span>
@@ -149,6 +116,42 @@
             </div>
         </div>
         
+
+        <!--右边-->
+        <div class="uk-width-1-3 my-card my-card-blur" uk-height-viewport="expand: true" style="position:fixed;right:10px;z-index: 999;" >
+            <!--标题-->
+            <h1 class="uk-margin-small-top ">资讯
+                <small style="color: #666666; font-size: medium">News</small>
+            </h1>
+            <!--分割符号-->
+            <hr class="uk-margin">
+            <!--内容1-->
+            <div class="uk-margin-small-left uk-margin-small-right">
+                <div class="uk-width-1-1 my-card my-card-round my-card-blur my-card-boder my-card-body">
+                        
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>服务器地址：</b></h2>
+                    </div>
+                    <h3>mc.nanworld.top:34501<span class="uk-label" style="float: right;">online</span></h3>
+                    
+
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>在线人数：</b></h2>
+                    </div>
+                    <h3>8/15</h3>
+
+                    <div class="">
+                        <h2 class="uk-margin-small-top" style="color:teal;"><b>你的信息</b></h2>
+                    </div>
+                    <h4><a href="#">你有未完成的新手任务</a></h4>
+
+                    <div class="uk-margin-small-top"></div>
+                    
+                </div>
+            </div>
+           
+        </div>
+
 
     </div> 
 </body>
