@@ -1462,9 +1462,9 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 10px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.37);
   color: #666;
-  border: 1px solid #e5e5e5;
+  border: 1.5px solid #ffffff4f;
   transition: 0.2s ease-in-out;
   transition-property: color, background-color, border;
 }
@@ -1509,7 +1509,7 @@ button.uk-icon:not(:disabled) {
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: #f8f8f8;
+  background-color: #f0f0f0;
   color: #999;
   border-color: #e5e5e5;
 }

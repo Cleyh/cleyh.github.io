@@ -16,8 +16,8 @@
 }
 
 .my-card-boder{
-    border-top: 1px solid rgba(255, 255, 255, 0.712);
-    border-left: 1px solid rgba(255, 255, 255, 0.712);
+    border-top: 1.5px solid rgba(255, 255, 255, 0.3);
+    border-left: 1.5px solid rgba(255, 255, 255, 0.3);
 }
 .my-card-round{
     border-radius: 1em;
@@ -27,4 +27,26 @@
 }
 .my-bodycard{
     padding: 10px 10px;
+}
+
+.cover{
+        background:transparent url(../res/bg.jpg);
+        background-size:cover;
+        
+}
+
+.my-middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -270px;
+    width: 380px;
+    height: 540px;
+}
+
+.my-buttom{
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #e5e5e5;
 }
